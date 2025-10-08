@@ -1,0 +1,224 @@
+
+// What is Client-Server architecture?
+
+Client-Server architecture is a network design model where tasks or workloads are divided between two types of computers
+
+The Client → Requests services or resources
+The Server → Provides services or resources
+
+Client (e.g., your web browser) wants data → sends a request to the server
+(Example: You type https://google.com)
+Server (e.g., Google’s computer) receives the request
+→ Processes it (finds the webpage)
+→ Sends back a response
+Client receives the response
+→ Displays it (e.g., shows Google’s homepage)
+
+
+// What is the difference between Frontend, Backend, and Database?
+
+Frontend → "The Face of the App"
+The user interface (UI) — everything you see and click in your browser or app.
+Built with:
+HTML → Structure (like bones)
+CSS → Style (colors, layout, fonts)
+JavaScript → Behavior (animations, form validation, interactivity)
+Runs on: Your device (phone, laptop, tablet)
+Examples:
+Buttons, menus, text, images
+When you type in a login form → that’s frontend
+When a page loads smoothly → frontend magic!
+Goal: Make the app look good and feel responsive. 
+
+2.  Backend → "The Brain Behind the Scenes"
+The server-side logic that handles requests, processes data, and talks to the database.
+Built with:
+Languages: JavaScript (Node.js), Python, Java, PHP, Ruby, etc.
+Frameworks: Express (Node.js), Django (Python), Spring (Java)
+Runs on: A remote server (not your device)
+What it does:
+Receives requests from frontend (e.g., “Log me in”)
+Checks credentials with the database
+Sends back the right response (e.g., “Login successful” or “Invalid password”)
+Handles payments, emails, file uploads, etc.
+Goal: Process data securely and efficiently. 
+
+3. Database → "The Memory / Storage"
+Structured place to store, organize, and retrieve data.
+Types:
+SQL (structured): MySQL
+→ Data in tables (like Excel sheets)
+
+Stores things like:
+User accounts (usernames, passwords*)
+Product info (e.g., Amazon items)
+Messages (e.g., WhatsApp chats)
+Orders, reviews, settings, etc.
+
+// Read about REST API basics (what is an API, GET/POST/PUT/DELETE).
+
+API = Application Programming Interface
+
+REST is just a popular style of building APIs that uses the same rules as the web.
+
+GET
+Ask for data
+
+POST
+Send new data
+
+PUT
+Update existing data
+
+DELETE
+Remove data
+
+ DAY 2 
+==> database is an organized collection of data which is  easily accessed, managed, and updated
+ two types of database 
+ 1. SQL
+ 2. NoSQL
+
+SQL = In SQL data is stored in tables like Excel sheets which have rows and column
+
+NoSQL = Design for flexible , scalable data storage
+
+SQL = Library with a strict catalog system
+Hard to add new categories, but very organized.
+NoSQL = Backpack with labeled folders
+Flexible, but less structured.
+
+
+MongoDB is a NoSQL database that stores data in flexible, JSON-like documents called BSON which is  (Binary JSON).
+It is a database which contains collection
+
+MongoDB stores data as JSON-like documents which is the reason to be popular in mern stack
+For faster development , Easy to scalable
+it also has great developer experience
+MongoDB automatically adds a unique identifier if you don’t provide in document
+
+
+A collection is a group of documents like a folder holding similar items.
+We don’t need to define its structure in advance — it’s schema-less!
+Collection names are usually plural (e.g., users, products, orders).
+
+A document is a single record in a collection.
+Each document is a key-value pair object
+Objects and arrays are stored directly
+
+JSON is built on two fundamental structures
+Objects → Key-Value Pairs ( "name": "Alex",)
+Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"],)
+
+
+=======
+// What is Client-Server architecture?
+
+Client-Server architecture is a network design model where tasks or workloads are divided between two types of computers
+
+The Client → Requests services or resources
+The Server → Provides services or resources
+
+Client (e.g., your web browser) wants data → sends a request to the server
+(Example: You type https://google.com)
+Server (e.g., Google’s computer) receives the request
+→ Processes it (finds the webpage)
+→ Sends back a response
+Client receives the response
+→ Displays it (e.g., shows Google’s homepage)
+
+
+// What is the difference between Frontend, Backend, and Database?
+
+Frontend → "The Face of the App"
+The user interface (UI) — everything you see and click in your browser or app.
+Built with:
+HTML → Structure (like bones)
+CSS → Style (colors, layout, fonts)
+JavaScript → Behavior (animations, form validation, interactivity)
+Runs on: Your device (phone, laptop, tablet)
+Examples:
+Buttons, menus, text, images
+When you type in a login form → that’s frontend
+When a page loads smoothly → frontend magic!
+Goal: Make the app look good and feel responsive. 
+
+2.  Backend → "The Brain Behind the Scenes"
+The server-side logic that handles requests, processes data, and talks to the database.
+Built with:
+Languages: JavaScript (Node.js), Python, Java, PHP, Ruby, etc.
+Frameworks: Express (Node.js), Django (Python), Spring (Java)
+Runs on: A remote server (not your device)
+What it does:
+Receives requests from frontend (e.g., “Log me in”)
+Checks credentials with the database
+Sends back the right response (e.g., “Login successful” or “Invalid password”)
+Handles payments, emails, file uploads, etc.
+Goal: Process data securely and efficiently. 
+
+3. Database → "The Memory / Storage"
+Structured place to store, organize, and retrieve data.
+Types:
+SQL (structured): MySQL
+→ Data in tables (like Excel sheets)
+
+Stores things like:
+User accounts (usernames, passwords*)
+Product info (e.g., Amazon items)
+Messages (e.g., WhatsApp chats)
+Orders, reviews, settings, etc.
+
+// Read about REST API basics (what is an API, GET/POST/PUT/DELETE).
+
+API = Application Programming Interface
+
+REST is just a popular style of building APIs that uses the same rules as the web.
+
+GET
+Ask for data
+
+POST
+Send new data
+
+PUT
+Update existing data
+
+DELETE
+Remove data
+
+ DAY 2 
+==> database is an organized collection of data which is  easily accessed, managed, and updated
+ two types of database 
+ 1. SQL
+ 2. NoSQL
+
+SQL = In SQL data is stored in tables like Excel sheets which have rows and column
+
+NoSQL = Design for flexible , scalable data storage
+
+SQL = Library with a strict catalog system
+Hard to add new categories, but very organized.
+NoSQL = Backpack with labeled folders
+Flexible, but less structured.
+
+
+MongoDB is a NoSQL database that stores data in flexible, JSON-like documents called BSON which is  (Binary JSON).
+It is a database which contains collection
+
+MongoDB stores data as JSON-like documents which is the reason to be popular in mern stack
+For faster development , Easy to scalable
+it also has great developer experience
+MongoDB automatically adds a unique identifier if you don’t provide in document
+
+
+A collection is a group of documents like a folder holding similar items.
+We don’t need to define its structure in advance — it’s schema-less!
+Collection names are usually plural (e.g., users, products, orders).
+
+A document is a single record in a collection.
+Each document is a key-value pair object
+Objects and arrays are stored directly
+
+JSON is built on two fundamental structures
+Objects → Key-Value Pairs ( "name": "Alex",)
+Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"]
