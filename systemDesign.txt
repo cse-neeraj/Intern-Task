@@ -221,4 +221,4 @@ Objects and arrays are stored directly
 
 JSON is built on two fundamental structures
 Objects → Key-Value Pairs ( "name": "Alex",)
-Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"]
+Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"])
