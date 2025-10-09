@@ -225,8 +225,8 @@ Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"])
 
 
 the examples of type coercion
-5 == "5"    true
-5 === "5"   False
+5 == "5"    true ( loose equality )
+5 === "5"   False (Strict equality)
 
 null == undefined      true  (special case in JavaScript)
 null === undefined     false (different types)
