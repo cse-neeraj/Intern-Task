@@ -222,3 +222,14 @@ Objects and arrays are stored directly
 JSON is built on two fundamental structures
 Objects → Key-Value Pairs ( "name": "Alex",)
 Arrays → Ordered Lists ( "hobbies": ["gaming", "drawing", "coding"])
+
+
+the examples of type coercion
+5 == "5"    true
+5 === "5"   False
+
+null == undefined      true  (special case in JavaScript)
+null === undefined     false (different types)
+
+"" == 0        true  (empty string converts to 0)
+"" === 0   
